@@ -1,0 +1,21 @@
+Executable Name: ./prolog
+
+Program Functionality:
+	Works with all input formats in handout
+		-like [filename] or ./prolog < filename or as a shell with just ./prolog
+		-Note, program will continue running after loading in [filename] in case you want to perform more queries
+	
+	Works for all queries that do NOT contain a variable
+		-Can still work with rules that contain variables
+
+
+Bugs:
+	Does not work for queries that contain a variable
+		-Unfortunately didnt have the time to implement this
+		-I mistakenly used plain C instead of C++ which really made it more time consuming than it should have been
+
+
+Please let me know if you need me to change anything to make testing my code easier.
+
+Thanks,
+Mikey
